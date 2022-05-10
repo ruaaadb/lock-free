@@ -8,8 +8,9 @@ edition = "2021"
 [dependencies]
 crossbeam-epoch = "0.9"
 crossbeam-utils = "0.8"
-rand = { version = "0.8.4", features = ["small_rng"] }
-jemallocator = "0.3.2"
-tcmalloc = { version = "0.3.0", features = ["bundled"] }
-seahash = "4.1.0"
-pprof = { version = "0.6.1", features = ["flamegraph"] }
+rand = { version = "0.8", features = ["small_rng"] }
+jemallocator = "0.3"
+tcmalloc = { version = "0.3", features = ["bundled"] }
+seahash = "4.1"
+pprof = { version = "0.6", features = ["flamegraph"] }
+snmalloc-rs = { version = "0.2", features = ["1mib", "native-cpu", "usecxx20"] }

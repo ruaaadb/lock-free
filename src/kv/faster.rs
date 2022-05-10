@@ -201,7 +201,7 @@ mod tests {
     use crate::kv::faster::FasterKV;
 
     const DATA_LEN: u64 = 4u64 << 20;
-    const ITER_PER_THREAD: usize = 50000000;
+    const ITER_PER_THREAD: usize = 5000000;
     const BUCKET_K: usize = 20;
     const THREAD_NUM: u64 = 4;
 
